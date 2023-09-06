@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import image from "../../assets/image/bgVideos.mp4"
-import '../../assets/css/style.css'
+// import '../../assets/css/style.css'
 
 function Counter() {
     const [quantity, setQuantity] = useState(1)

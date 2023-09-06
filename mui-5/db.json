@@ -1,0 +1,83 @@
+{
+  "customers": [
+    {
+      "name": "Jone Doe",
+      "details": "He is from American",
+      "gender": "male",
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "name": "Jone Doe1",
+      "details": "He is from American",
+      "gender": "male",
+      "rating": 3,
+      "id": 2
+    },
+    {
+      "name": "Jone Doe2",
+      "details": "He is from American",
+      "gender": "female",
+      "rating": 4,
+      "id": 3
+    },
+    {
+      "name": "Peter White",
+      "details": "He is a web-developer",
+      "gender": "male",
+      "rating": 4,
+      "id": 4
+    },
+    {
+      "name": "Mary Smith",
+      "details": "She is from America",
+      "gender": "female",
+      "rating": 3,
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "name": "Samsung S22",
+      "brand": "Samsung",
+      "price": "500"
+    },
+    {
+      "id": 3,
+      "name": "Iphon 13",
+      "brand": "Apple",
+      "price": "1300"
+    },
+    {
+      "name": "Mi 6",
+      "brand": "Xiaomi",
+      "price": "350",
+      "id": 4
+    },
+    {
+      "name": "Iphone 111",
+      "brand": "Apple",
+      "price": "1500",
+      "id": 5
+    },
+    {
+      "name": "Iphone 15",
+      "brand": "Apple",
+      "price": "1800",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jone Doe",
+      "company": "VNG Vietnam"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "company": "Vietnam News"
+    }
+  ]
+}

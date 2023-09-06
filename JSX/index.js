@@ -23,8 +23,8 @@ const div_6 = document.createElement('div');
     div_6.classList.add('card-body', 'p-5');
 
     const h2 = document.createElement('h2');
-        h2.classList.add('text-uppercase', 'text-center', 'mb-5');
-        h2.innerText = "Create an accout";
+        h2.classList.add('text-uppercase', 'text-center', 'mb-3');
+        h2.innerText = "Create an account";
 
     const form = document.createElement('form');
 
@@ -40,11 +40,11 @@ const div_6 = document.createElement('div');
                 label_name.className = 'form-label';
                 label_name.htmlFor = "form3Example1cg";
                 label_name.innerText = "Your Name"
-        div_name.appendChild(input_name);
         div_name.appendChild(label_name);
+        div_name.appendChild(input_name);
 
         const div_email = document.createElement('div');
-            div_email.classList.add('form-outline', 'mb-4');
+            div_email.classList.add('form-outline', 'mb-3');
 
             const input_email = document.createElement('input');
                 input_email.type = "email";
@@ -55,11 +55,11 @@ const div_6 = document.createElement('div');
                 label_email.className = 'form-label';
                 label_email.htmlFor = "form3Example3cg";
                 label_email.innerText = "Your Email"
-        div_email.appendChild(input_email);
         div_email.appendChild(label_email);
+        div_email.appendChild(input_email);
 
         const div_password = document.createElement('div');
-            div_password.classList.add('form-outline', 'mb-4');
+            div_password.classList.add('form-outline', 'mb-3');
 
             const input_password = document.createElement('input');
                 input_password.type = "password";
@@ -70,11 +70,11 @@ const div_6 = document.createElement('div');
                 label_password.className = 'form-label';
                 label_password.htmlFor = "form3Example4cg";
                 label_password.innerText = "Password"
-        div_password.appendChild(input_password);
         div_password.appendChild(label_password);
+        div_password.appendChild(input_password);
 
         const div_rePass = document.createElement('div');
-            div_rePass.classList.add('form-outline', 'mb-4');
+            div_rePass.classList.add('form-outline', 'mb-3');
 
             const input_rePass = document.createElement('input');
                 input_rePass.type = "password";
@@ -85,11 +85,11 @@ const div_6 = document.createElement('div');
                 label_rePass.className = 'form-label';
                 label_rePass.htmlFor = "form3Example4cdg";
                 label_rePass.innerText = "Repeat your password"
-        div_rePass.appendChild(input_rePass);
         div_rePass.appendChild(label_rePass);
+        div_rePass.appendChild(input_rePass);
 
         const div_check = document.createElement('div');
-            div_check.classList.add('form-check', 'd-flex', 'justify-content-center', 'mb-5');
+            div_check.classList.add('form-check', 'd-flex', 'justify-content-center', 'mb-4');
 
             const input_check = document.createElement('input');
                 input_check.type = "checkbox";
